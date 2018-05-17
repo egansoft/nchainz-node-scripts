@@ -17,4 +17,4 @@ cp /home/ubuntu/src/github.com/RSenApps/nchainz/genesis.dat ./
 /home/ubuntu/src/github.com/RSenApps/nchainz/config.sh MAINNET
 
 # Run
-nchainz node $(curl -s "http://169.254.169.254/latest/meta-data/public-ipv4"):5000 2>> log
+nchainz node $(curl -s "http://169.254.169.254/latest/meta-data/public-ipv4"):5000
